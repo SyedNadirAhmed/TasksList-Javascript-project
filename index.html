@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	
+	<!--Font-Awesome stylesheet-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+	
+	<!---Main Stylesheet---->
+	<link rel="stylesheet"  href="assets/css/style.css">
+	
+  <title>Task List Project Using js</title>
+  </head>
+  <body>
+	
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 d-block mx-auto">
+          <div id="main" class="card">
+            <div class="card-body">
+              <span class="card-title h4 mb-3">Task List</span>
+              <div id="row">
+                <form id="task-form">
+                  <div class="form-group">
+                    <input class="form-control border-top-0 border-right-0 border-left-0 border-bottom" placeholder="New Task"  type="text" name="task" id="task">
+                  </div>
+                  <input class="btn btn-info px-3" type="submit" value="Add Task">
+                </form>
+              </div>
+            </div>
+            <div class="card-action card-body">
+              <h5 id="task-title">Tasks</h5>
+              <div class="form-group">
+                <input class="form-control border-top-0 border-right-0 border-left-0 border-bottom" placeholder="Filter Task"  type="text" name="filter" id="filter">
+              </div>
+              <ul class="collection"> </ul>
+                <a href="#" class="clear-task btn btn-dark">Clear Task</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+   
+  </body>
+</html>
